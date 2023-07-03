@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Veterinária - Murasaki</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu" class="topo">
+            <!-- Aqui vai o seu menu -->
+            <h3><u>Veja mais:</u></h3>
+            <ul>
+                <li><a href="Index.html" class="menu-item">Página Principal</a></li>
+                <li><a href="about.html" class="menu-item">Sobre a Página</a></li>
+                <li><a href="serviçohours.html" class="menu-item">Agenda</a></li>
+                <li><a href="contact.html" class="menu-item">Contato</a></li>
+            </ul>
+            <a href="#ponte" id="return ">Volte ao topo</a>
+        </div>
+        <!-- Resto do conteúdo da página -->
+        <div class="main">
+            <div class="header" id="ponte">
+                <img src="images/image3.jpg" class="header" title="(Header) Veterinário">
+            </div>
+    
+            <div class="content" id="page-contat">
+                <form method="get">
+                    <fieldset id="dados-form">
+
+                        <legend>Dados Pessoais</legend>
+                        <p> Preencha as dados conforme suas informações: </p>
+
+                        <hr><br>
+
+                        <label>Nome: </label><input type="text" ><br>
+                        <br><label>Sobrenome: </label><input type="text"><br>
+                        <br><label>Idade: </label><input type="number" min="18" max="99"><br>
+                        <br>
+
+                        <p><u>Coloque seu gênero: </u></p>
+                        <input type="radio" name="Genero" id="masculino">
+                        <label> Masculino </label><br>
+                        <input type="radio" name="Genero" id="feminino">
+                        <label> Feminino </label><br>
+                        <input type="radio" name="Genero" id="outro">
+                        <label> Outro </label><br>
+
+                        <br><br>
+
+
+
+                    </fieldset>
+
+                    <fieldset id="contato-form">
+                        <legend>Contato</legend>
+                        <p>Registre seus contatos abaixo:</p>
+
+                        <hr><br>
+
+                        <label>Telefone (Príncipal): </label><input type="number"><br>
+                        
+                        <br><label>Telefone (Recado): </label><input type="number"><br>
+
+                        <br><label>E-mail: </label><input type="email" name="email-contat" id="emaiContat"><br>
+
+                        <br><label>Confirme o E-mail: </label><input type="email" name="email-contat" id="emaiContat"><br>
+
+                        <br>
+                    </fieldset>
+
+                    <fieldset id="endereço-form">
+                        <br><legend>Endereço</legend>
+                        <label>Deixe seu endereço abaixo: </label>
+
+                        <hr><br>
+
+
+
+                        <label>Logradouro: </label>
+                        <input type="text"><br>
+
+                        <br><label>Numero: </label>
+                        <input type="text"><br>
+
+                        <br><label>Bairro: </label>
+                        <input type="text"><br>
+
+                        <br><label>Cidade: </label>
+                        <input type="text"><br>
+
+                        <br><label>Estado: </label>
+                        <input type="text"><br>
+
+                        <br><label>CEP: </label>
+                        <input type="number"><br>
+
+                        <br>
+                    </fieldset>
+
+                    <fieldset id="button-color">
+                        <br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                        <button type="button">Salvar</button>
+                        <br>
+                    </fieldset>
+
+                    <br><br><br>
+                    <fieldset>
+                        <legend>Loja mais próxima</legend>
+                        <label> - Endereço: Rua São Francisco de Assis, 446 - Parque Res. Regina (Nova Veneza), Sumaré - SP, 13179-232</label><br>
+                        <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14710.089105008283!2d-47.18342684458008!3d-22.820158999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d88ee2a49dfde63%3A0xf953e4c058bc06dc!2sVeterin%C3%A1ria%20em%20domic%C3%ADlio%20Rosiane%20Barreto!5e0!3m2!1spt-BR!2sbr!4v1688354012327!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </fieldset>
+
+
+                </form>
+            </div>
+    
+            <div class="footer">
+                <blockquote class="footer-text"><strong><i> O melhor lar, para o seu pet.</i></strong></blockquote>
+                <hr>
+                <blockquote class="footer-text">© <u>Murasaki Veterinário</u> | <a href="contact.html" class="footer-text">Contate-nos</a> | <a href="about.html" class="footer-text">Sobre nós</a> | <a href="serviçohours.html" class="footer-text">Horário de Atendimento.</a></blockquote>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
